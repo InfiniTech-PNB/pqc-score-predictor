@@ -61,7 +61,7 @@ This microservice provides an AI-driven scoring mechanism to evaluate the Post-Q
 ## 📂 Project Structure
 
 ```text
-pqc-prediction-ml/
+pqc-score-predictor---app-website/
 │
 ├── main.py                 # FastAPI Server entry point & prediction logic
 ├── pqc-scoremodel.pkl      # Pre-trained scikit-learn model binary
@@ -82,7 +82,7 @@ pqc-prediction-ml/
 1. **Clone & Navigate**
    ```bash
    git clone <repository-url>
-   cd pqc-prediction-ml
+   cd pqc-score-predictor---app-website
    ```
 
 2. **Create and activate a Python Virtual Environment**
