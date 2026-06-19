@@ -41,7 +41,7 @@ jobs:
     - name: Stop service for clean deployment
       run: sudo pm2 stop pqc-api || true
     - name: Force Cleanup with Sudo
-      run: sudo rm -rf /home/ubuntu/pqc-runner/_work/pqc-score-predictor/pqc-score-predictor/*
+      run: sudo rm -rf /home/ubuntu/pqc-runner/_work/pqc-score-predictor---app-website/pqc-score-predictor---app-website/*
     - name: Checkout Code
       uses: actions/checkout@v4
       with:
